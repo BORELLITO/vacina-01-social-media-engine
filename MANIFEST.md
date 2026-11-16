@@ -1,3 +1,8 @@
+# SUPERSEDED — REDIRECT TO MANIFEST_V4_1.md
+
+Este arquivo é mantido apenas para rastreabilidade. Não carregar como manifesto vigente.
+Fonte ativa: `MANIFEST_V4_1.md` via `CURRENT_ENGINE.md` V4.1.
+
 # VACINA 01 — MANIFEST CANÔNICO V1
 
 ## Repositório
@@ -9,10 +14,13 @@
 
 ## Arquivos canônicos
 
-- PROMPT_MESTRE_SOCIAL_MEDIA.md — Prompt Mestre V4, fonte principal.
-- START_COCKPIT.md — cockpit operacional sincronizado da Library.
-- ENGINE_LOCK.md — travas de governança e identidade vigentes.
-- QA_GATE.md — gates obrigatórios antes da entrega.
+- CURRENT_ENGINE.md — índice do motor vigente V4.1.
+- PROMPT_MESTRE_SOCIAL_MEDIA.md — corpo principal V4.
+- MOTOR_V4_1_ADDENDUM.md — sobreposição operacional vigente.
+- START_COCKPIT_CURRENT_V4_1.md — cockpit operacional atual.
+- START_COCKPIT_20261115.md — histórico do cockpit.
+- ENGINE_LOCK_V1_1.md — travas de governança e identidade vigentes.
+- QA_GATE_V1_1.md — gates obrigatórios antes da entrega.
 - CHANGELOG.md — histórico append-only da sincronização.
 
 ## Fora do repositório por padrão

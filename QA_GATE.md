@@ -1,8 +1,14 @@
-# VACINA 01 — QA GATE V1
+# SUPERSEDED — REDIRECT TO QA_GATE_V1_1.md
+
+Este arquivo é mantido apenas para rastreabilidade. Não carregar como gate vigente.
+Fonte ativa: `QA_GATE_V1_1.md` via `CURRENT_ENGINE.md` V4.1.
+
+# VACINA 01 — QA GATE V1.1
 
 ## Gate 0 — Fonte
 
-- [ ] Prompt Mestre vigente lido
+- [ ] CURRENT_ENGINE.md lido
+- [ ] Prompt Mestre e Adendo V4.1 lidos
 - [ ] Cockpit vigente lido
 - [ ] Conflitos reconciliados
 - [ ] Versões antigas marcadas como históricas/superseded
@@ -27,6 +33,7 @@ Falha em qualquer item: BLOQUEAR.
 - [ ] Layout agradável em tela cheia e miniatura
 - [ ] Pet sem deformações, halos ou aparência plástica
 - [ ] Foto da Larissa, se usada, preservada sem alteração de características
+- [ ] As cinco perguntas de percepção receberam SIM
 
 ## Gate 3 — Editorial
 
@@ -54,3 +61,13 @@ Falha em qualquer item: BLOQUEAR.
 - [ ] Rollback possível
 
 Resultado permitido: CANDIDATA, APROVADA, VALIDADA, PUBLICADA CONFIRMADA ou BLOQUEADA. Nunca promover estado sem evidência.
+
+## Gate perceptivo obrigatório
+
+Reprovar internamente se a peça não for simultaneamente:
+
+- capaz de interromper a rolagem;
+- agradável, clean e legível;
+- acolhedora e geradora de confiança;
+- coerente com a contratação da Larissa;
+- compatível com nível de designer sênior.
