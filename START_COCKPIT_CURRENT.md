@@ -1,3 +1,8 @@
+# SUPERSEDED — REDIRECT TO START_COCKPIT_CURRENT_V4_1.md
+
+Este arquivo é mantido apenas para rastreabilidade. Não carregar como cockpit vigente.
+Fonte ativa: `START_COCKPIT_CURRENT_V4_1.md` via `CURRENT_ENGINE.md` V4.1.
+
 # VACINA 01 — COCKPIT START V4
 
 Data: 15/11/2026 — America/Sao_Paulo  
