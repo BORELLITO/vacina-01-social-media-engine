@@ -61,3 +61,10 @@ A produção anterior do P04 ocorreu com cockpit/Library e script local, sem pre
 - Motor: V4.1.1 documental implementado.
 - P04 V7: continua candidata; não aprovada automaticamente.
 - Novas artes: condicionadas à reconciliação da leitura do GitHub e à validação dos tokens necessários.
+
+## 2026-11-16 — V4.1.2 — Redirecionamento de aliases históricos
+
+- `ENGINE_LOCK.md`, `QA_GATE.md`, `MANIFEST.md` e `CHANGELOG.md` passaram a conter redirecionamento explícito para suas fontes V4.1.
+- `START_COCKPIT_CURRENT.md` passou a ser marcado como superseded e redirecionado para `START_COCKPIT_CURRENT_V4_1.md`.
+- Os aliases históricos foram mantidos para rastreabilidade, sem poder substituir o motor vigente.
+- GitHub: commits de governança `e248f02` e `f528e6e` verificados na branch `main`.
