@@ -19,10 +19,13 @@ Arquivos obrigatórios do preflight:
 
 - CURRENT_ENGINE.md
 - PROMPT_MESTRE_SOCIAL_MEDIA.md
-- START_COCKPIT_CURRENT.md
-- ENGINE_LOCK.md
-- QA_GATE.md
+- START_COCKPIT_CURRENT_V4_1.md
+- ENGINE_LOCK_V1_1.md
+- QA_GATE_V1_1.md
+- DESIGN_SYSTEM_STATUS_V0_1.md
 - Google Sheets: PAINEL, EDITORIAL e APROVACOES
+
+Arquivos sem o sufixo vigente (`START_COCKPIT_CURRENT.md`, `ENGINE_LOCK.md`, `QA_GATE.md`, `MANIFEST.md` e `CHANGELOG.md`) são históricos/compatibilidade. Não carregá-los como fonte ativa.
 
 ## 2. Hard stop antes da arte
 
@@ -36,6 +39,7 @@ A produção fica BLOQUEADA quando:
 - o briefing exige foto da Larissa e a foto correta não está disponível;
 - o texto contém claim clínico não validado;
 - a ferramenta escolhida não garante texto exato e layout controlável.
+- a especificação visual necessária para a peça estiver pendente e a execução depender de interpretação não parametrizada.
 
 Não “resolver” um bloqueio improvisando. Informar a causa e o único próximo passo.
 
@@ -86,6 +90,8 @@ Arte, copy, clínica, arquivo e publicação são estados independentes.
 - REPROVADA/BLOQUEADA: não entregar como final.
 
 Nunca usar “aprovada” sem indicar qual camada foi aprovada.
+
+Toda candidata deve carregar, no manifesto da versão exata, o registro das cinco respostas perceptivas. Se o registro não existir, o resultado máximo permitido é `QA PENDENTE`, nunca `QA OK`.
 
 ## 7. Resposta operacional curta
 

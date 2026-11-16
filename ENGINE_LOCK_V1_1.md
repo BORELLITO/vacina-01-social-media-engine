@@ -4,8 +4,9 @@ Data de sincronização: 16/11/2026
 Repositório canônico: BORELLITO/vacina-01-social-media-engine
 Motor principal: CURRENT_ENGINE.md — V4.1
 Corpo principal: PROMPT_MESTRE_SOCIAL_MEDIA.md — V4
-Cockpit operacional: START_COCKPIT_CURRENT.md
-Estado do repositório: IMPLEMENTADO — sincronização inicial
+Cockpit operacional: START_COCKPIT_CURRENT_V4_1.md
+Especificação visual: DESIGN_SYSTEM_STATUS_V0_1.md
+Estado do repositório: IMPLEMENTADO — V4.1 sincronizado na branch main
 
 ## Fonte de verdade
 
@@ -16,11 +17,12 @@ Este repositório é a fonte técnica do motor operacional. A Library e o Google
 1. Ler CURRENT_ENGINE.md.
 2. Ler o Prompt Mestre e o Adendo V4.1.
 3. Ler o cockpit vigente.
-4. Conferir identidade visual, assets aprovados, bloqueios e reprovações.
-5. Conferir os estados independentes de arte, copy, clínica e publicação.
-6. Se o repositório não puder ser lido ou houver conflito não resolvido, BLOQUEAR a produção.
-7. Após produzir, executar os gates de QA e registrar a versão exata.
-8. Nunca chamar candidata de aprovada sem evidência humana vinculada ao arquivo exato.
+4. Ler a especificação visual vigente e conferir se os tokens necessários estão validados.
+5. Conferir identidade visual, assets aprovados, bloqueios e reprovações.
+6. Conferir os estados independentes de arte, copy, clínica e publicação.
+7. Se o repositório não puder ser lido ou houver conflito não resolvido, BLOQUEAR a produção.
+8. Após produzir, executar os gates de QA e registrar a versão exata.
+9. Nunca chamar candidata de aprovada sem evidência humana vinculada ao arquivo exato.
 
 ## Travas visuais vigentes
 
@@ -32,6 +34,10 @@ Este repositório é a fonte técnica do motor operacional. A Library e o Google
 - Feed: clean, editorial, acolhedor, profissional e sem aparência genérica de IA.
 - Master preferencial: 2160×2700 px, proporção 4:5.
 - Não enviar binários pesados ao GitHub por padrão; usar Library/Drive para artes e GitHub para motor, manifests e controle.
+
+## Leitura do GitHub
+
+A existência do repositório foi verificada na interface web. A API/conector GitHub retornou 404 nesta auditoria; portanto, essa leitura automática não deve ser tratada como evidência até ser corrigida. Se a leitura técnica não puder ser comprovada por uma rota confiável, bloquear nova produção.
 
 ## Estados independentes
 

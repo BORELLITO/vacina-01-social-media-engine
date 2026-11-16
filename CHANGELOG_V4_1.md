@@ -43,3 +43,21 @@ A produção anterior do P04 ocorreu com cockpit/Library e script local, sem pre
 - Preflight: IMPLEMENTADO como protocolo documental.
 - P04 V7: CANDIDATA; revisão humana pendente.
 - Publicação: não realizada.
+
+## 2026-11-16 — V4.1.1 — Correção de governança e rastreabilidade
+
+### Corrigido
+
+- Normalizadas as referências para `START_COCKPIT_CURRENT_V4_1.md`, `ENGINE_LOCK_V1_1.md` e `QA_GATE_V1_1.md`.
+- Arquivos sem sufixo vigente foram explicitamente classificados como históricos/compatibilidade.
+- Manifesto atualizado de V1 para V4.1.
+- Criado o registro de estado dos tokens visuais, sem inventar hex, fontes ou medidas ainda não validados.
+- Gate perceptivo passou a exigir cinco respostas registradas no manifesto da versão exata.
+- Estados de QA foram desambiguados para não confundir teste técnico com aprovação humana.
+- Registrado o problema de leitura via API/conector GitHub, mantendo a verificação web separada.
+
+### Estado
+
+- Motor: V4.1.1 documental implementado.
+- P04 V7: continua candidata; não aprovada automaticamente.
+- Novas artes: condicionadas à reconciliação da leitura do GitHub e à validação dos tokens necessários.

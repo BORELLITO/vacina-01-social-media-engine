@@ -10,7 +10,8 @@ Status: VIGENTE
 3. Aplicar MOTOR_V4_1_ADDENDUM.md como sobreposição vigente.
 4. Ler START_COCKPIT_CURRENT_V4_1.md.
 5. Ler ENGINE_LOCK_V1_1.md e QA_GATE_V1_1.md.
-6. Conferir PAINEL, EDITORIAL e APROVACOES no Google Sheets.
+6. Ler DESIGN_SYSTEM_STATUS_V0_1.md; se houver token visual pendente, não inventar valor.
+7. Conferir PAINEL, EDITORIAL e APROVACOES no Google Sheets.
 
 ## Regra de precedência
 
@@ -26,5 +27,10 @@ Não produzir se o carregamento acima não puder ser comprovado. Não misturar v
 - Repositório: BORELLITO/vacina-01-social-media-engine.
 - Cockpit vigente: START_COCKPIT_CURRENT_V4_1.md.
 - Travas vigentes: ENGINE_LOCK_V1_1.md e QA_GATE_V1_1.md.
+- Especificação visual: DESIGN_SYSTEM_STATUS_V0_1.md — parcialmente parametrizada; tokens definitivos pendentes de validação humana.
 - Peça atual: P04 V7 candidata.
 - Próximo passo: revisão humana da arte e da legenda.
+
+## Regra de arquivo ativo
+
+Somente os nomes acima são carregados como vigentes. Arquivos com os nomes `START_COCKPIT_CURRENT.md`, `ENGINE_LOCK.md`, `QA_GATE.md`, `MANIFEST.md` e `CHANGELOG.md` são históricos/compatibilidade e não substituem os arquivos V4.1.

@@ -28,7 +28,7 @@ Falha em qualquer item: BLOQUEAR.
 - [ ] Layout agradável em tela cheia e miniatura
 - [ ] Pet sem deformações, halos ou aparência plástica
 - [ ] Foto da Larissa, se usada, preservada sem alteração de características
-- [ ] As cinco perguntas de percepção receberam SIM
+- [ ] As cinco perguntas de percepção receberam SIM e foram registradas no manifesto da versão exata
 
 ## Gate 3 — Editorial
 
@@ -55,7 +55,7 @@ Falha em qualquer item: BLOQUEAR.
 - [ ] Memória, Sheet e manifest atualizados
 - [ ] Rollback possível
 
-Resultado permitido: CANDIDATA, APROVADA, VALIDADA, PUBLICADA CONFIRMADA ou BLOQUEADA. Nunca promover estado sem evidência.
+Resultado permitido: CANDIDATA, QA PENDENTE, QA OK, APROVADA POR BORELLI, VALIDADA POR LARISSA, APROVADA FINAL, PUBLICADA CONFIRMADA ou BLOQUEADA. Nunca promover estado sem evidência.
 
 ## Gate perceptivo obrigatório
 
@@ -66,3 +66,16 @@ Reprovar internamente se a peça não for simultaneamente:
 - acolhedora e geradora de confiança;
 - coerente com a contratação da Larissa;
 - compatível com nível de designer sênior.
+
+## Registro mínimo obrigatório
+
+O manifesto de cada versão deve conter:
+
+- arquivo exato e hash;
+- motor e commit/referência carregados;
+- cinco respostas perceptivas individualizadas;
+- estado separado de arte, copy, clínica e publicação;
+- bloqueio e próximo passo único;
+- referência de rollback.
+
+Sem esses campos, o gate permanece `QA PENDENTE`.

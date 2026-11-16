@@ -13,6 +13,8 @@
 - Publicação: NÃO PUBLICADO.
 - Bloqueio atual: aprovação humana da arte e da legenda.
 - Único próximo passo: Borelli revisar P04 V7 e aprovar ou pedir correção.
+- Governança: referências V4.1 normalizadas; tokens visuais definitivos ainda pendentes de validação humana.
+- QA perceptivo P04 V7: não registrado individualmente no manifesto; estado máximo atual `QA PENDENTE`.
 
 O restante deste arquivo é histórico operacional. Entradas antigas não substituem este snapshot; só servem para rastreabilidade.
 
