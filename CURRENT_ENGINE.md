@@ -1,6 +1,6 @@
 # VACINA 01 — CURRENT ENGINE V4.1
 
-Data: 16/11/2026
+Data: 17/11/2026
 Status: VIGENTE
 
 ## Como carregar
@@ -28,9 +28,9 @@ Não produzir se o carregamento acima não puder ser comprovado. Não misturar v
 - Cockpit vigente: START_COCKPIT_CURRENT_V4_1.md.
 - Travas vigentes: ENGINE_LOCK_V1_1.md e QA_GATE_V1_1.md.
 - Especificação visual: DESIGN_SYSTEM_STATUS_V0_1.md — parcialmente parametrizada; tokens definitivos pendentes de validação humana.
-- Peça atual: P05 V1 — post único sobre organização da carteirinha.
+- Peça atual: P05 V4 — post único sobre organização da carteirinha; candidata com direção de arte OK e gate humano pendente.
 - P04 V7: candidata anterior, preservada e sem aprovação final.
-- Próximo passo: revisão humana da arte e da legenda da P05 V1.
+- Próximo passo: registrar o gate humano da arte e da legenda da P05 V4; clínica e publicação permanecem bloqueadas.
 
 ## Regra de arquivo ativo
 
