@@ -68,3 +68,13 @@ A produção anterior do P04 ocorreu com cockpit/Library e script local, sem pre
 - `START_COCKPIT_CURRENT.md` passou a ser marcado como superseded e redirecionado para `START_COCKPIT_CURRENT_V4_1.md`.
 - Os aliases históricos foram mantidos para rastreabilidade, sem poder substituir o motor vigente.
 - GitHub: commits de governança `e248f02` e `f528e6e` verificados na branch `main`.
+
+## 2026-11-17 — P05 V1 — Nova candidata de post único
+
+- Pauta escolhida: `Carteirinha de vacinação: como se organizar?`.
+- Formato: post único 4:5, master 2160×2700 px.
+- Arte vetorial determinística criada com texto controlado; sem foto real da Larissa e sem pet gerado.
+- Legenda complementar criada separadamente.
+- Arte, copy, clínica e publicação permanecem independentes.
+- P04 V7 não foi sobrescrita nem promovida; continua candidata anterior.
+- Estado P05: CANDIDATA / QA PENDENTE / NÃO PUBLICADO.

@@ -28,8 +28,9 @@ Não produzir se o carregamento acima não puder ser comprovado. Não misturar v
 - Cockpit vigente: START_COCKPIT_CURRENT_V4_1.md.
 - Travas vigentes: ENGINE_LOCK_V1_1.md e QA_GATE_V1_1.md.
 - Especificação visual: DESIGN_SYSTEM_STATUS_V0_1.md — parcialmente parametrizada; tokens definitivos pendentes de validação humana.
-- Peça atual: P04 V7 candidata.
-- Próximo passo: revisão humana da arte e da legenda.
+- Peça atual: P05 V1 — post único sobre organização da carteirinha.
+- P04 V7: candidata anterior, preservada e sem aprovação final.
+- Próximo passo: revisão humana da arte e da legenda da P05 V1.
 
 ## Regra de arquivo ativo
 

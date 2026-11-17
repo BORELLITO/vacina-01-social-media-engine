@@ -2,19 +2,20 @@
 
 ## SNAPSHOT VIGENTE — ler primeiro
 
-- Data operacional: 16/11/2026 — America/Sao_Paulo.
+- Data operacional: 17/11/2026 — America/Sao_Paulo.
 - Motor vigente: CURRENT_ENGINE.md — V4.1, Prompt Mestre V4 + Adendo V4.1.
 - Repositório técnico: BORELLITO/vacina-01-social-media-engine.
 - Estado do projeto: IMPLEMENTADO / TESTADO / EM PRODUÇÃO EDITORIAL.
-- Peça atual: P04 V7 — candidata.
-- Arte: QA técnico e visual preliminar OK; aguarda aprovação de Borelli.
+- Peça atual: P05 V1 — post único candidato.
+- Arte: QA técnico OK e inspeção preliminar full/miniatura OK; gate perceptivo pendente.
 - Copy: legenda complementar candidata; aguarda aprovação humana.
-- Clínica: revisão preliminar; sem orientação clínica específica; não validada automaticamente.
+- Clínica: aguarda Larissa se considerar a copy aplicável; sem protocolo, dose ou intervalo.
 - Publicação: NÃO PUBLICADO.
-- Bloqueio atual: aprovação humana da arte e da legenda.
-- Único próximo passo: Borelli revisar P04 V7 e aprovar ou pedir correção.
+- Bloqueio atual: registro do gate perceptivo e aprovação humana da P05 V1.
+- Único próximo passo: Borelli revisar P05 V1 e aprovar ou pedir correção.
 - Governança: referências V4.1 normalizadas; tokens visuais definitivos ainda pendentes de validação humana.
-- QA perceptivo P04 V7: não registrado individualmente no manifesto; estado máximo atual `QA PENDENTE`.
+- QA perceptivo P05 V1: não registrado individualmente no manifesto; estado atual `QA PENDENTE`.
+- P04 V7: permanece candidata anterior, sem publicação e sem aprovação final.
 
 O restante deste arquivo é histórico operacional. Entradas antigas não substituem este snapshot; só servem para rastreabilidade.
 
