@@ -2,79 +2,53 @@
 
 ## 2026-11-16 — V1 — Sincronização inicial do motor
 
-### Implementado
-
 - Criado o repositório privado BORELLITO/vacina-01-social-media-engine.
-- Sincronizado o Prompt Mestre V4 a partir da Library.
-- Sincronizado o Cockpit atual a partir da Library.
-- Criados os arquivos ENGINE_LOCK, QA_GATE e MANIFEST.
-- Registrada a regra de bloqueio para verde/verde-oliva.
-- Registrada a separação entre arte, copy, clínica e publicação.
-- Mantidos os binários das artes fora do GitHub por padrão.
-
-### Correção de governança
-
-A produção anterior do P04 ocorreu com cockpit/Library e script local, sem preflight obrigatório contra um repositório canônico. Isso permitiu deriva visual. A causa foi falha de governança, não uma aprovação nova.
-
-### Estado
-
-- Motor: IMPLEMENTADO.
-- Repositório: IMPLEMENTADO.
-- QA gate: IMPLEMENTADO como documento operacional.
-- Arte P04 V6: CANDIDATA; não aprovada automaticamente.
-- Clínica: revisão preliminar; sem validação clínica automática.
-- Publicação: não confirmada.
+- Sincronizados Prompt Mestre V4, cockpit, ENGINE_LOCK, QA_GATE e MANIFEST.
+- Registradas a separação entre arte, copy, clínica e publicação e a regra de manter binários fora do GitHub por padrão.
+- Registrada a causa-raiz da deriva visual anterior: produção sem preflight obrigatório contra um repositório canônico.
 
 ## 2026-11-16 — V4.1 — Lapidação do motor
 
-### Implementado
-
 - Criado CURRENT_ENGINE.md como índice de carregamento único.
 - Criado MOTOR_V4_1_ADDENDUM.md sem apagar o Prompt Mestre V4.
-- Separado snapshot vigente do histórico no cockpit.
 - Transformados os cinco critérios de Borelli em gate perceptivo obrigatório.
-- Definida a escolha de ferramenta: composição determinística para texto/layout; edição controlada para fotos; geração de imagem somente quando adequada.
+- Definida a escolha de ferramenta: composição determinística para texto/layout; edição controlada para fotos; geração somente quando adequada.
 - Reforçado o hard stop para motor, assets, conflitos, claims clínicos e aprovações ausentes.
-- Atualizados ENGINE_LOCK, QA_GATE e MANIFEST para V4.1.
+
+## 2026-11-16 — V4.1.1/V4.1.2 — Governança e rastreabilidade
+
+- Normalizadas as referências para CURRENT_ENGINE, START_COCKPIT_CURRENT_V4_1, ENGINE_LOCK_V1_1 e QA_GATE_V1_1.
+- Aliases sem sufixo vigente classificados como históricos/compatibilidade.
+- Gate perceptivo passou a exigir cinco respostas registradas na versão exata.
+- Estados de QA desambiguados para não confundir teste técnico com aprovação estética, clínica ou publicação.
+- Problema de leitura via conector GitHub registrado; verificação web mantida como evidência separada.
+
+## 2026-11-17 — P05 V1/V2/V3 — Iterações de legibilidade
+
+- Criado o post único P05 sobre organização da carteirinha, em arte vetorial 2160×2700 px.
+- V1 reprovada por Borelli no critério de legibilidade; V2 preservada como histórico após auditoria perceptiva.
+- V3 criada para reforçar hierarquia e leitura em miniatura; preservada como histórico após nova revisão do rodapé.
+- Nenhum binário anterior foi sobrescrito.
+
+## 2026-11-17 — P05 V4 — Candidata vigente
+
+### Implementado
+
+- Rodapé, cidades, serviço e assinatura ampliados após a auditoria da V3.
+- Hook, composição, ilustração, paleta Rosé Editorial e regra sem verde preservados.
+- Master 2160×2700 px, thumbnail 540×675 px e SVG fonte mantidos na Library.
+- Legenda V2 revisada para complementar a arte; copy continua independente da clínica.
+- Subagentes de direção de arte e QA executados em rodadas independentes.
+- Library, Google Sheets, CURRENT_ENGINE e cockpit atualizados para P05 V4.
+- Binários das artes continuam fora do GitHub.
 
 ### Estado
 
-- Motor V4.1: IMPLEMENTADO.
-- Preflight: IMPLEMENTADO como protocolo documental.
-- P04 V7: CANDIDATA; revisão humana pendente.
-- Publicação: não realizada.
+- P05 V4: CANDIDATA; direção de arte OK; QA técnico OK; gate humano pendente.
+- Copy V2: CANDIDATA; aprovação humana pendente.
+- Clínica: não validada automaticamente; Larissa decide eventual validação específica.
+- Publicação: NÃO REALIZADA e não agendada.
 
-## 2026-11-16 — V4.1.1 — Correção de governança e rastreabilidade
+### Próximo passo único
 
-### Corrigido
-
-- Normalizadas as referências para `START_COCKPIT_CURRENT_V4_1.md`, `ENGINE_LOCK_V1_1.md` e `QA_GATE_V1_1.md`.
-- Arquivos sem sufixo vigente foram explicitamente classificados como históricos/compatibilidade.
-- Manifesto atualizado de V1 para V4.1.
-- Criado o registro de estado dos tokens visuais, sem inventar hex, fontes ou medidas ainda não validados.
-- Gate perceptivo passou a exigir cinco respostas registradas no manifesto da versão exata.
-- Estados de QA foram desambiguados para não confundir teste técnico com aprovação humana.
-- Registrado o problema de leitura via API/conector GitHub, mantendo a verificação web separada.
-
-### Estado
-
-- Motor: V4.1.1 documental implementado.
-- P04 V7: continua candidata; não aprovada automaticamente.
-- Novas artes: condicionadas à reconciliação da leitura do GitHub e à validação dos tokens necessários.
-
-## 2026-11-16 — V4.1.2 — Redirecionamento de aliases históricos
-
-- `ENGINE_LOCK.md`, `QA_GATE.md`, `MANIFEST.md` e `CHANGELOG.md` passaram a conter redirecionamento explícito para suas fontes V4.1.
-- `START_COCKPIT_CURRENT.md` passou a ser marcado como superseded e redirecionado para `START_COCKPIT_CURRENT_V4_1.md`.
-- Os aliases históricos foram mantidos para rastreabilidade, sem poder substituir o motor vigente.
-- GitHub: commits de governança `e248f02` e `f528e6e` verificados na branch `main`.
-
-## 2026-11-17 — P05 V1 — Nova candidata de post único
-
-- Pauta escolhida: `Carteirinha de vacinação: como se organizar?`.
-- Formato: post único 4:5, master 2160×2700 px.
-- Arte vetorial determinística criada com texto controlado; sem foto real da Larissa e sem pet gerado.
-- Legenda complementar criada separadamente.
-- Arte, copy, clínica e publicação permanecem independentes.
-- P04 V7 não foi sobrescrita nem promovida; continua candidata anterior.
-- Estado P05: CANDIDATA / QA PENDENTE / NÃO PUBLICADO.
+Registrar as cinco respostas perceptivas da P05 V4, revisar a legenda e encaminhar à Larissa se houver necessidade de validação clínica. Não publicar antes do fechamento dos estados.
