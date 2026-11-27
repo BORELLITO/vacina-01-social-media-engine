@@ -1,0 +1,49 @@
+name: VACINA 01 - Painel de revisao
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  review-gates:
+    name: Revisores determinísticos
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout completo para comparar o diff
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Executar painel de revisão
+        id: panel
+        run: python runtime/review_gate.py --out /tmp/PR_REVIEW_GATES.json
+      - name: Publicar relatório no resumo do job
+        if: always()
+        run: |
+          if [ -f /tmp/PR_REVIEW_GATES.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          report = json.loads(Path('/tmp/PR_REVIEW_GATES.json').read_text())
+          print('# VACINA 01 — Painel de revisão técnica')
+          print(f"\n**Veredito:** `{report['verdict']}`  ")
+          print('**Aprovação humana final:** obrigatória')
+          print('\n## Gates')
+          for item in report['commands']:
+              print(f"- `{item['label']}`: **{item['status']}**")
+          print(f"- `segurança e privacidade`: **{report['security']['status']}**")
+          if report['blockers']:
+              print('\n## Bloqueios')
+              for blocker in report['blockers']:
+                  print(f'- {blocker}')
+          PY
+          fi
