@@ -1,0 +1,73 @@
+{
+  "motor": "2.1.0",
+  "projeto": "VACINA01",
+  "trabalho": "R05_MAVIE",
+  "fonte_verdade": "Aprovações humanas explícitas e os hashes dos arquivos correspondentes; Google Sheets é registro operacional, não substitui mídia/prova.",
+  "referencia_marca": {
+    "caminho_relativo_media": "vacina01_reference/REFERENCIA_APROVADA_POST01.png",
+    "sha256": "a5bfe4181e31e9bee3871ca3c11c8515e2dbbceeb4e3c422e25345fe529b4aaa",
+    "estado": "APROVADA (Rosé Editorial)",
+    "observacao": "Marfim, tipografia editorial, pouca cor rosa, grafite, composição simétrica. Não confirmar fontes/HEX definitivos."
+  },
+  "versoes": [
+    {
+      "versao": "R05_V1",
+      "estado": "REPROVADA",
+      "motivo": "slideshow e ritmo ruim"
+    },
+    {
+      "versao": "R05_V2",
+      "estado": "REPROVADA",
+      "motivo": "estética fragmentada, falta harmonia"
+    },
+    {
+      "versao": "R05_V3",
+      "estado": "REPROVADA",
+      "motivo": "teste insuficiente, reboot solicitado"
+    },
+    {
+      "versao": "R05_FRAME_V1_3",
+      "estado": "APROVADA_SOMENTE_DIRECAO_VISUAL",
+      "sha256": "47cce6c5f2764ba70235f86a69395f1fbed48cdfbd42b90a377b1b72614ddab5",
+      "aprovador": "Borelli",
+      "evidencia": "Mensagem no chat: 'Gostei', referente ao quadro da Mavie V1.3",
+      "escopo": "QUADRO_CHAVE"
+    },
+    {
+      "versao": "R05_MOTION_V1_4",
+      "estado": "TESTE_NAO_APROVADO"
+    },
+    {
+      "versao": "R05_MOTION_V1_5",
+      "estado": "TESTE_NAO_APROVADO"
+    },
+    {
+      "versao": "R05_MOTION_V1_6",
+      "estado": "APROVADA_BASE_AUDIOVISUAL",
+      "sha256": "1321362faf03a74286d57b603a6bbec195fcf74c937a11cb29824fc25904434e",
+      "aprovador": "Borelli",
+      "evidencia": "Mensagem no chat: 'Boa', após a V1.6; aprovação da BASE, não do master",
+      "escopo": "BASE_MOTION"
+    },
+    {
+      "versao": "R05_MOTION_V1_7",
+      "estado": "CANDIDATA_NAO_APROVADA",
+      "sha256": "4d7155730dcc3c2af7216fe6895731565924ebdebd3c0d463ec6e61ad30f3298"
+    }
+  ],
+  "restricoes": {
+    "consentimento_imagem_mavie_relato_usuario": true,
+    "evidencia_documental_consentimento_anexada": false,
+    "validacao_clinica_larissa": false,
+    "crmv_confirmado_larissa": false,
+    "licenca_musica_comprovada": false,
+    "logo_e_fontes_definitivas_confirmados": false,
+    "aprovacao_final_publicacao": false,
+    "autoriza_publicar": false,
+    "autoriza_gasto": false,
+    "autorizou_edicao_master_neste_pedido": false
+  },
+  "regra_primaria": "Não tratar aprovação de quadro, base ou teste como autorização de master, validação clínica ou publicação.",
+  "autorizacoes_especificas": {},
+  "master_sha256": null
+}

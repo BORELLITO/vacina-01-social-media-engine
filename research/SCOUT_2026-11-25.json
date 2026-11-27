@@ -1,0 +1,63 @@
+{
+  "version": "1.1",
+  "project": "VACINA01",
+  "job": "R05_MAVIE_REBOOT",
+  "date": "2026-11-25",
+  "scope": "vacinação veterinária domiciliar; Reel autêntico com abordagem criador(a) e boa direção de arte",
+  "cost_spent_brl": 0,
+  "credit_cost": 0,
+  "references": [
+    {
+      "id": "SC1",
+      "creator": "@marinapraxedes",
+      "caption_summary": "Atendimento domiciliar de Elisa; cuidado no ambiente familiar; chamada ao agendamento",
+      "url": "https://pictame.com/en/discover/hashtag/veterin%C3%A1rio-a-domic%C3%ADlio",
+      "profile_url": "https://www.instagram.com/marinapraxedes/",
+      "content_verified": "caption_on_index_only",
+      "video_watched": false,
+      "note": "A página agregadora identifica um Reel e transcreve legenda, mas não foi possível reproduzir e analisar cenas e áudio; não afirmar sequência de cortes ou fonte/tipografia."
+    },
+    {
+      "id": "SC2",
+      "creator": "@dra.laurawaughon",
+      "caption_summary": "Vacinação sem sair de casa e convite a agendar",
+      "url": "https://pictame.com/en/discover/hashtag/veterin%C3%A1rio-a-domic%C3%ADlio",
+      "profile_url": "https://www.instagram.com/dra.laurawaughon/",
+      "content_verified": "caption_on_index_only",
+      "video_watched": false,
+      "note": "Reel citado em listagem pública; apenas copy/tema observados; audiovisual não assistido."
+    },
+    {
+      "id": "SC3",
+      "creator": "@quelmonaco",
+      "caption_summary": "Atendimento veterinário a domicílio em região próxima; famílias com vários animais e tutores com dificuldade de locomoção",
+      "url": "https://pictame.com/en/discover/hashtag/veterin%C3%A1rio-a-domic%C3%ADlio",
+      "profile_url": "https://www.instagram.com/quelmonaco/",
+      "content_verified": "caption_on_index_only",
+      "video_watched": false,
+      "note": "Reel citado em listagem pública; audiovisual não assistido."
+    }
+  ],
+  "guidance": [
+    {
+      "title": "Meta Business: organizar Reels em gancho, história, conclusão e CTA",
+      "url": "https://pt-br.facebook.com/business/learn/video/reels-ads-course",
+      "type": "official_guidance"
+    },
+    {
+      "title": "Meta Business: texto fora das zonas da interface",
+      "url": "https://pt-br.facebook.com/business/ads-guide/update/image/instagram-reels/outcome-leads",
+      "type": "official_ad_image_guidance_not_organic_video_spec"
+    },
+    {
+      "title": "CFMV: Resolução 1690/2026 sobre atendimento veterinário domiciliar",
+      "url": "https://crmvms.org.br/wp-content/uploads/2026/01/atendimento-domiciliar-resolucao-1690.pdf",
+      "type": "normative_reference_clinical_review"
+    }
+  ],
+  "findings": {
+    "can_claim_three_reels_watched": false,
+    "common_content_angle": "apresentar atendimento domiciliar real e conveniência sem garantias universais; evidência apenas das legendas das três referências",
+    "next_required": "análise efetiva de 3 vídeos originais com reprodução visual; sem gastar créditos sem orçamento/autorização"
+  }
+}

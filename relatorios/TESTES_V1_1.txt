@@ -1,0 +1,23 @@
+test_incomplete_never_zero (test_finance.TestFinance.test_incomplete_never_zero) ... ok
+test_margin (test_finance.TestFinance.test_margin) ... ok
+test_reject_negative (test_finance.TestFinance.test_reject_negative) ... ok
+test_discovery_allowed (test_gates.GateTests.test_discovery_allowed) ... ok
+test_good_state (test_gates.GateTests.test_good_state) ... ok
+test_no_publish_without_final_approval (test_gates.GateTests.test_no_publish_without_final_approval) ... ok
+test_no_publish_without_larissa (test_gates.GateTests.test_no_publish_without_larissa) ... ok
+test_no_reel_before_frames (test_gates.GateTests.test_no_reel_before_frames) ... ok
+test_no_reel_before_short (test_gates.GateTests.test_no_reel_before_short) ... ok
+test_approval_format (test_quality_gates.StrictGates.test_approval_format) ... ok
+test_bad_fingerprint_blocked (test_quality_gates.StrictGates.test_bad_fingerprint_blocked) ... ok
+test_block_actorless_creator_reel (test_quality_gates.StrictGates.test_block_actorless_creator_reel) ... ok
+test_block_boolean_without_proof (test_quality_gates.StrictGates.test_block_boolean_without_proof) ... ok
+test_block_captions_as_watched (test_quality_gates.StrictGates.test_block_captions_as_watched) ... ok
+test_block_fake_url (test_quality_gates.StrictGates.test_block_fake_url) ... ok
+test_block_unproven_clinical (test_quality_gates.StrictGates.test_block_unproven_clinical) ... ok
+test_clinical_must_be_larissa (test_quality_gates.StrictGates.test_clinical_must_be_larissa) ... ok
+test_zero_cost_discovery (test_quality_gates.StrictGates.test_zero_cost_discovery) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.000s
+
+OK

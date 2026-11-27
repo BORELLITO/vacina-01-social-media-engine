@@ -1,0 +1,53 @@
+{
+  "id": "R05_MAVIE_DOCUMENTAL_ACERVO",
+  "versao": 1,
+  "objetivo": "Prova de linguagem visual documental, de até 3 quadros-chave, usando somente fotos e vídeo reais da Mavie, sem fingir gravação com a Larissa",
+  "estado": "DIRECAO_VISUAL",
+  "decisoes_aprovadas": [
+    "Rosé Editorial",
+    "preservar Mavie real",
+    "voz real Larissa",
+    "não publicar sem aprovação"
+  ],
+  "anteriores": [
+    "V1 REPROVADA",
+    "V2 REPROVADA",
+    "V3 REPROVADA"
+  ],
+  "evidencia_referencias_audiovisuais": [],
+  "frames_visuais_auditados": false,
+  "amostra_curtissima_aprovada": false,
+  "autoriza_midia_externa": true,
+  "consentimento_uso_imagem": true,
+  "validacao_clinica_larissa": false,
+  "aprovacao_estetica_final": false,
+  "licenca_trilha": false,
+  "autorizacao_publicar": false,
+  "autorizacao_creditos": false,
+  "fontes_e_marca_verificados": false,
+  "notas": "Trilha documental de acervo, não substituir o objetivo creator comercial. Usuário autorizou continuar com arquivos existentes. Quadro-chave candidato ainda sem aprovação.",
+  "inspecao_referencias_pendente": true,
+  "requisito_captação": "Aparição verdadeira da Larissa e gravação direta do serviço, sem encenar a vacinação antiga",
+  "plano_orientador": "research/SCOUT_PARECER_R05.md",
+  "bloqueado_reel_influencer_completo": true,
+  "qualidade_v11": true,
+  "benchmarks_audiovisuais": [],
+  "media_captada": [],
+  "aprovacao_quadro_chave": null,
+  "aprovacao_amostra": null,
+  "aprovacao_clinica": null,
+  "aprovacao_final": null,
+  "licenca_trilha_prova": null,
+  "versao_motor": "1.3",
+  "formato": "DOCUMENTAL_ACERVO",
+  "limite_material_real_reconhecido": true,
+  "referencia_canonica_sha256": "a5bfe4181e31e9bee3871ca3c11c8515e2dbbceeb4e3c422e25345fe529b4aaa",
+  "originais_sha256": {
+    "204443.jpg": "7d488a2cbfa0539e4daf9e0b0906b416dd26140b51e98a0665d6e7c669fcce5e",
+    "204439.jpg": "87cd7b651fe04cb70840ac886ff826e345db5031cf5f729e2e0fe55c2e9bae99",
+    "204446.mp4": "29f3794247fc65141d147e8f10171ed8f298d6d0ed6935b7f44c50750f422d48"
+  },
+  "simula_procedimento": false,
+  "declara_larissa_em_video": false,
+  "promete_sem_estresse": false
+}
