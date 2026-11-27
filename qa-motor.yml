@@ -1,0 +1,32 @@
+name: VACINA 01 - QA sem geracao
+on:
+  push:
+    paths:
+      - "AGENTS.md"
+      - "config/**"
+      - "src/**"
+      - "runtime/**"
+      - "docs/**"
+      - "tests/**"
+      - ".github/agents/**"
+      - ".github/skills/**"
+      - ".github/workflows/**"
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Testes de gates
+        run: python -m unittest discover -s tests -v
+      - name: Validar descoberta sem consumo
+        run: python src/orq.py validate jobs/R05_MAVIE_REBOOT.json DISCOVERY
+      - name: Orquestrador V2.0 - diagnostico deterministico sem midia privada
+        run: python runtime/orq_v2.py run --stage DIAGNOSTICO --out reports/CI_ORQ00.json
