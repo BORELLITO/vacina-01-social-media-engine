@@ -1,0 +1,62 @@
+{
+  "id": "R05_CAPTACAO_INTAKE",
+  "versao": 1,
+  "estado": "READY_FOR_PRIVATE_CAPTURE",
+  "objetivo": "Preparar entradas reais e privadas para o próximo quadro-chave do R05_MAVIE_REBOOT",
+  "nao_e": [
+    "aprovacao clinica",
+    "aprovacao estetica",
+    "autorizacao de edicao master",
+    "autorizacao de publicacao"
+  ],
+  "entradas_obrigatorias": [
+    {
+      "id": "LARISSA_FALA_CAMERA",
+      "formato": "video_vertical_9_16",
+      "duracao_segundos": "5-8",
+      "estado": "A_CAPTAR",
+      "armazenamento": "privado"
+    },
+    {
+      "id": "LARISSA_CONTEXTO_PROFISSIONAL",
+      "formato": "video_vertical_9_16",
+      "duracao_segundos": "5-8",
+      "estado": "A_CAPTAR",
+      "armazenamento": "privado"
+    },
+    {
+      "id": "PLANO_APOIO_REAL",
+      "formato": "video_vertical_9_16",
+      "duracao_segundos": "3-5",
+      "estado": "A_CAPTAR",
+      "armazenamento": "privado"
+    },
+    {
+      "id": "REFERENCIA_AUDIOVISUAL_ASSISTIDA",
+      "formato": "url_timestamp_observacoes",
+      "estado": "A_REGISTRAR",
+      "armazenamento": "manifesto_sem_midia"
+    }
+  ],
+  "gates": {
+    "privacidade": "nenhum dado identificavel de paciente, tutor ou prontuario",
+    "autenticidade": "nao encenar atendimento antigo nem inventar procedimento",
+    "integridade": "preservar arquivos originais privados e registrar hashes localmente",
+    "clinico": "validacao_humana_larissa_quando_houver_alegacao",
+    "visual": "qa_humano_com_frame_real",
+    "publicacao": "autorizacao_humana_especifica"
+  },
+  "saidas_permitidas_no_github": [
+    "este_manifesto",
+    "brief_operacional",
+    "relatorio_tecnico_sem_midia_privada"
+  ],
+  "bloqueios_atuais": [
+    "captação real da Larissa ausente",
+    "referência audiovisual realmente assistida ausente",
+    "quadro-chave final não aprovado",
+    "validação clínica não registrada",
+    "publicação não autorizada"
+  ],
+  "proximo_gate": "conferir_manifesto_privado_e_montar_quadro_chave_somente_apos_entradas_reais"
+}
