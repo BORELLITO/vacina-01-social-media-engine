@@ -1,0 +1,41 @@
+{
+  "versao": "1.0",
+  "estado": "APROVADO_CONCEITUAL",
+  "marca": "Dra. Larissa Pavan Benato | Vacinação Domiciliar",
+  "instagram": "@larissapavanbenato.vet",
+  "cidades": [
+    "Americana/SP",
+    "Santa Bárbara d’Oeste/SP",
+    "Nova Odessa/SP"
+  ],
+  "direcao": "Rosé Editorial",
+  "paleta_conceitual": [
+    "marfim",
+    "branco",
+    "rosa antigo",
+    "coral suave",
+    "grafite",
+    "taupe discreto"
+  ],
+  "hex_definitivos": null,
+  "fontes_definitivas": null,
+  "logo_original_isolado": false,
+  "personality": [
+    "feminina",
+    "natural",
+    "elegante",
+    "acolhedora",
+    "premium profissional"
+  ],
+  "referencia_canonica": "post APROVADA DEMAIS; arquivo real exigido em comparativo",
+  "visual_proibido": [
+    "verde como cor de marca",
+    "rosa excessivo",
+    "texto competindo com legendas",
+    "selos/ícones sem função",
+    "reel como carrossel animado",
+    "alteração de anatomia de paciente real",
+    "logo inventado"
+  ],
+  "qa_visual": "revisão humana sobre frames e miniatura obrigatória; código de paleta isolado não prova qualidade"
+}
