@@ -1,0 +1,98 @@
+{
+  "orquestrador": "ORQ-00",
+  "agentes": [
+    {
+      "id": "ORQ-00",
+      "nome": "Orquestrador Geral",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "MEM-01",
+      "nome": "Memória e Proveniência",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "SCOUT-02",
+      "nome": "Buscador de Referências",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "BIZ-03",
+      "nome": "Estrategista Comercial",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "SCRIPT-04",
+      "nome": "Roteirista e Diretor Narrativo",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "ART-05",
+      "nome": "Diretor de Arte",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "EDIT-06",
+      "nome": "Editor Audiovisual",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "VET-07",
+      "nome": "Auditor Clínico-Regulatório",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "FIN-08",
+      "nome": "Controlador Financeiro",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "QA-09",
+      "nome": "Auditor Independente",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    },
+    {
+      "id": "GROW-10",
+      "nome": "Analista de Dados e Aprendizado",
+      "status": "PERFIL_DEFINIDO",
+      "execucao_automatica": "NAO_HABILITADA"
+    }
+  ],
+  "despacho": {
+    "reel": [
+      "MEM-01",
+      "SCOUT-02",
+      "BIZ-03",
+      "SCRIPT-04",
+      "ART-05",
+      "EDIT-06",
+      "VET-07",
+      "QA-09"
+    ],
+    "precificacao": [
+      "MEM-01",
+      "FIN-08",
+      "VET-07",
+      "BIZ-03",
+      "QA-09"
+    ],
+    "calendario": [
+      "MEM-01",
+      "SCOUT-02",
+      "BIZ-03",
+      "GROW-10",
+      "QA-09"
+    ]
+  },
+  "regra": "ativar apenas agentes necessários; o arquivo não implica execução LLM em paralelo"
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-11-25",
+  "approved": [
+    "marca pessoal e serviço domiciliar",
+    "identidade conceitual Rosé Editorial",
+    "cidade/região",
+    "conteúdo real e voz real",
+    "publicação após aprovação humana final",
+    "necessidade de aval clínico Larissa"
+  ],
+  "rejected": [
+    {
+      "id": "R05_MAVIE_V1",
+      "status": "REPROVADO",
+      "causa": "slideshow, sem ritmo/criatividade"
+    },
+    {
+      "id": "R05_MAVIE_V2",
+      "status": "REPROVADO",
+      "causa": "design fragmentado, sem harmonia/simetria, sem narrativa"
+    },
+    {
+      "id": "R05_MAVIE_V3",
+      "status": "REPROVADO",
+      "causa": "direção ainda não demonstrou satisfação; reboot exigido pelo usuário"
+    }
+  ],
+  "suspended": [
+    "produção de reels até direção visual aprovada",
+    "Higgsfield como rota prioritária",
+    "templates anteriores do R05"
+  ],
+  "pending": [
+    "verificar arquivo mestre de logo/fonte/cores",
+    "revisão clínica conteúdo R05",
+    "obter links de referências realmente assistidos",
+    "definir amostra 3-5s e aprovar",
+    "licença comercial de trilha",
+    "medir resultados comerciais reais"
+  ],
+  "consentimento_mavie": "usuário confirmou autorização de responsável para uso/envio em 2026-11-25; manter comprovação na base privada",
+  "custo_por_dose_conhecido_reais": {
+    "V10": 55,
+    "Antirrábica": 25,
+    "Gripe": 55,
+    "Giárdia": 55,
+    "V4": 58
+  },
+  "v8_custo": "não informado",
+  "observacao": "custos de compra não representam preços, lucro ou custo completo."
+}
