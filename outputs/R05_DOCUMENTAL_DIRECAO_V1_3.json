@@ -1,0 +1,261 @@
+{
+  "projeto": "VACINA01",
+  "motor": "1.3",
+  "job": "R05_MAVIE_DOCUMENTAL_ACERVO",
+  "etapa": "DIRECAO_VISUAL",
+  "modo": "WORKERS_DETERMINISTICOS_LOCAIS_SEM_LLM",
+  "subagentes_ativos": [
+    "ART-05",
+    "FIN-08",
+    "MEDIA-11",
+    "MEM-01",
+    "QA-09",
+    "SCOUT-02",
+    "VET-07"
+  ],
+  "perfis_llm_registrados_nao_executados": [
+    "MEM-01",
+    "SCOUT-02",
+    "BIZ-03",
+    "SCRIPT-04",
+    "ART-05",
+    "EDIT-06",
+    "VET-07",
+    "QA-09"
+  ],
+  "resultados": {
+    "MEM-01": {
+      "agente": "MEM-01",
+      "estado": "LIDO_ARQUIVO_LOCAL",
+      "aprovacoes": [
+        "marca pessoal e serviço domiciliar",
+        "identidade conceitual Rosé Editorial",
+        "cidade/região",
+        "conteúdo real e voz real",
+        "publicação após aprovação humana final",
+        "necessidade de aval clínico Larissa"
+      ],
+      "reprovados": [
+        {
+          "id": "R05_MAVIE_V1",
+          "status": "REPROVADO",
+          "causa": "slideshow, sem ritmo/criatividade"
+        },
+        {
+          "id": "R05_MAVIE_V2",
+          "status": "REPROVADO",
+          "causa": "design fragmentado, sem harmonia/simetria, sem narrativa"
+        },
+        {
+          "id": "R05_MAVIE_V3",
+          "status": "REPROVADO",
+          "causa": "direção ainda não demonstrou satisfação; reboot exigido pelo usuário"
+        }
+      ],
+      "pendencias": [
+        "verificar arquivo mestre de logo/fonte/cores",
+        "revisão clínica conteúdo R05",
+        "obter links de referências realmente assistidos",
+        "definir amostra 3-5s e aprovar",
+        "licença comercial de trilha",
+        "medir resultados comerciais reais"
+      ],
+      "limite": "A fonte local pode estar desatualizada em relação às aprovações registradas no Sheets/chat"
+    },
+    "SCOUT-02": {
+      "agente": "SCOUT-02",
+      "estado": "FONTES_CLASSIFICADAS",
+      "fontes": 3,
+      "reels_assistidos_comprova_duracao": 0,
+      "referencias": [
+        {
+          "criador": "@marinapraxedes",
+          "url": "https://www.instagram.com/marinapraxedes/",
+          "evidencia": "caption_on_index_only",
+          "video_assistido": false
+        },
+        {
+          "criador": "@dra.laurawaughon",
+          "url": "https://www.instagram.com/dra.laurawaughon/",
+          "evidencia": "caption_on_index_only",
+          "video_assistido": false
+        },
+        {
+          "criador": "@quelmonaco",
+          "url": "https://www.instagram.com/quelmonaco/",
+          "evidencia": "caption_on_index_only",
+          "video_assistido": false
+        }
+      ],
+      "limite": "A pesquisa por texto não comprova ritmo, tipografia, edição ou eficácia; 0 benchmark visual validado"
+    },
+    "FIN-08": {
+      "agente": "FIN-08",
+      "estado": "CUSTOS_AQUISICAO_VERIFICADOS",
+      "custo_por_dose_nao_preco": {
+        "V10": 55.0,
+        "Antirrábica": 25.0,
+        "Gripe": 55.0,
+        "Giárdia": 55.0,
+        "V4": 58.0
+      },
+      "vacina_sem_custo": [
+        "V8"
+      ],
+      "margem_por_atendimento": null,
+      "pendencia": "preço e custos completos de operação não conhecidos"
+    },
+    "ART-05": {
+      "agente": "ART-05",
+      "estado": "QUADRO_CHAVE_EM_PREPARACAO",
+      "marca": "Dra. Larissa Pavan Benato | Vacinação Domiciliar",
+      "identidade": "Rosé Editorial",
+      "fontes_aprovadas": false,
+      "paleta_aprovada_em_hex": false,
+      "frame_chave_aprovado": false,
+      "regras_de_design": [
+        "verde como cor de marca",
+        "rosa excessivo",
+        "texto competindo com legendas",
+        "selos/ícones sem função",
+        "reel como carrossel animado",
+        "alteração de anatomia de paciente real",
+        "logo inventado"
+      ],
+      "proximo_objeto": "um quadro-chave que use mídia real e referência aprovada, não um Reel inteiro"
+    },
+    "VET-07": {
+      "agente": "VET-07",
+      "estado": "REVISÃO_HUMANA_PENDENTE",
+      "fatos_pendentes": [
+        "primeira dose V10",
+        "início do protocolo",
+        "condição da paciente após atendimento",
+        "registro CRMV oficial"
+      ],
+      "revisao_larissa_registrada": false,
+      "proibido": "autoaprovação clínica por software"
+    },
+    "MEDIA-11": {
+      "agente": "MEDIA-11",
+      "estado": "AUDITORIA_TECNICA_CONCLUIDA",
+      "originais_conferidos": 3,
+      "originais_esperados": 3,
+      "limite": "Conferir hash e codec não prova que a filmagem é esteticamente utilizável nem que mostra vacinação",
+      "itens": [
+        {
+          "arquivo": "204443.jpg",
+          "papel": "foto_abertura",
+          "estado": "IDENTICO_ORIGINAL",
+          "sha256": "7d488a2cbfa0539e4daf9e0b0906b416dd26140b51e98a0665d6e7c669fcce5e",
+          "hash_esperado": "7d488a2cbfa0539e4daf9e0b0906b416dd26140b51e98a0665d6e7c669fcce5e",
+          "bytes": 257206,
+          "metadados": {
+            "ok": true,
+            "format": {
+              "format_name": "image2",
+              "duration": "0.040000",
+              "size": "257206"
+            },
+            "streams": [
+              {
+                "codec_name": "mjpeg",
+                "codec_type": "video",
+                "width": 1152,
+                "height": 1536,
+                "avg_frame_rate": "25/1"
+              }
+            ]
+          }
+        },
+        {
+          "arquivo": "204439.jpg",
+          "papel": "foto_momento_distinto",
+          "estado": "IDENTICO_ORIGINAL",
+          "sha256": "87cd7b651fe04cb70840ac886ff826e345db5031cf5f729e2e0fe55c2e9bae99",
+          "hash_esperado": "87cd7b651fe04cb70840ac886ff826e345db5031cf5f729e2e0fe55c2e9bae99",
+          "bytes": 147225,
+          "metadados": {
+            "ok": true,
+            "format": {
+              "format_name": "image2",
+              "duration": "0.040000",
+              "size": "147225"
+            },
+            "streams": [
+              {
+                "codec_name": "mjpeg",
+                "codec_type": "video",
+                "width": 1152,
+                "height": 1536,
+                "avg_frame_rate": "25/1"
+              }
+            ]
+          }
+        },
+        {
+          "arquivo": "204446.mp4",
+          "papel": "video_documental",
+          "estado": "IDENTICO_ORIGINAL",
+          "sha256": "29f3794247fc65141d147e8f10171ed8f298d6d0ed6935b7f44c50750f422d48",
+          "hash_esperado": "29f3794247fc65141d147e8f10171ed8f298d6d0ed6935b7f44c50750f422d48",
+          "bytes": 2411073,
+          "metadados": {
+            "ok": true,
+            "format": {
+              "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+              "duration": "13.499233",
+              "size": "2411073"
+            },
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "width": 478,
+                "height": 850,
+                "avg_frame_rate": "23370000/404977"
+              }
+            ]
+          }
+        },
+        {
+          "arquivo": "205899_VOZ_LARISSA.mp3",
+          "papel": "voz_derivada_nao_master",
+          "estado": "DERIVADO_COM_HASH_REGISTRADO",
+          "sha256": "c52edfb24e268017d7b5566a4d794a14f3eb9e937addd6ca7569f67887937b08",
+          "hash_esperado": null,
+          "bytes": 600150,
+          "metadados": {
+            "ok": true,
+            "format": {
+              "format_name": "mp3",
+              "duration": "24.973061",
+              "size": "600150"
+            },
+            "streams": [
+              {
+                "codec_name": "mp3",
+                "codec_type": "audio",
+                "sample_rate": "44100",
+                "channels": 1,
+                "avg_frame_rate": "0/0"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "QA-09": {
+      "agente": "QA-09",
+      "etapa_testada": "DIRECAO_VISUAL",
+      "estado": "GATE_ESTRUTURAL_VALIDO",
+      "motivos": [],
+      "limite": "Um gate estrutural válido não é aprovação estética, clínica, comercial ou publicação"
+    }
+  },
+  "resultado": "GATE_ESTRUTURAL_VALIDO",
+  "consumo_creditos": 0,
+  "publicou": false,
+  "renderizou": false,
+  "pendencia_mais_urgente": "aprovar quadro-chave do microdocumental com acervo real"
+}
