@@ -62,11 +62,26 @@ def command(label: str, args: list[str]) -> dict:
         }
 
 
-def changed_files() -> tuple[list[str], str]:
+def pull_request_base_sha() -> str | None:
     base = os.environ.get("GITHUB_BASE_SHA")
+    if base:
+        return base
+    event_path = os.environ.get("GITHUB_EVENT_PATH")
+    if not event_path:
+        return None
+    try:
+        event = json.loads(Path(event_path).read_text(encoding="utf-8"))
+        return event.get("pull_request", {}).get("base", {}).get("sha")
+    except (OSError, json.JSONDecodeError, AttributeError):
+        return None
+
+
+def changed_files() -> tuple[list[str], str]:
+    base = pull_request_base_sha()
     head = os.environ.get("GITHUB_SHA", "HEAD")
     candidates = []
     if base:
+        candidates.append(["git", "diff", "--name-only", "--diff-filter=ACMRT", f"{base}...{head}"])
         candidates.append(["git", "diff", "--name-only", "--diff-filter=ACMRT", base, head])
     candidates.append(["git", "diff", "--name-only", "--diff-filter=ACMRT", "HEAD^", head])
     for args in candidates:
@@ -140,7 +155,7 @@ def main() -> int:
     report = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "commit": os.environ.get("GITHUB_SHA", "local"),
-        "base_commit": os.environ.get("GITHUB_BASE_SHA"),
+        "base_commit": pull_request_base_sha(),
         "diff_command": diff_command,
         "changed_files": files,
         "commands": commands,
