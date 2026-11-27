@@ -1,0 +1,43 @@
+{
+  "id": "R05_MAVIE_REBOOT",
+  "versao": 1,
+  "objetivo": "Reel comercial autêntico com linguagem creator/influencer sem estética de slideshow",
+  "estado": "DISCOVERY",
+  "decisoes_aprovadas": [
+    "Rosé Editorial",
+    "preservar Mavie real",
+    "voz real Larissa",
+    "não publicar sem aprovação"
+  ],
+  "anteriores": [
+    "V1 REPROVADA",
+    "V2 REPROVADA",
+    "V3 REPROVADA"
+  ],
+  "evidencia_referencias_audiovisuais": [],
+  "frames_visuais_auditados": false,
+  "amostra_curtissima_aprovada": false,
+  "autoriza_midia_externa": true,
+  "consentimento_uso_imagem": true,
+  "validacao_clinica_larissa": false,
+  "aprovacao_estetica_final": false,
+  "licenca_trilha": false,
+  "autorizacao_publicar": false,
+  "autorizacao_creditos": false,
+  "fontes_e_marca_verificados": false,
+  "notas": "Prévia R05 V1–V3 arquivadas; reboot do vídeo, não da identidade/negócio.",
+  "inspecao_referencias_pendente": true,
+  "requisito_captação": "Aparição verdadeira da Larissa e gravação direta do serviço, sem encenar a vacinação antiga",
+  "plano_orientador": "research/SCOUT_PARECER_R05.md",
+  "bloqueado_reel_influencer_completo": true,
+  "qualidade_v11": true,
+  "benchmarks_audiovisuais": [],
+  "media_captada": [],
+  "aprovacao_quadro_chave": null,
+  "aprovacao_amostra": null,
+  "aprovacao_clinica": null,
+  "aprovacao_final": null,
+  "licenca_trilha_prova": null,
+  "versao_motor": "1.1",
+  "formato": "CREATOR_LARISSA"
+}
