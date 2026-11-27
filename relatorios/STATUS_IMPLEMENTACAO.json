@@ -1,0 +1,22 @@
+{
+  "data": "2026-11-25",
+  "implementado": [
+    "pacote de agentes e skill Rosé",
+    "decisões e registro de R05",
+    "guardas CLI e testes",
+    "custos financeiros em CSV",
+    "diagnóstico inicial das equipes",
+    "CI workflow pronto para ativação no futuro GitHub",
+    "9 testes locais passaram"
+  ],
+  "nao_implementado": [
+    "agentes LLM em execução independente",
+    "GitHub repositório privado/Runflow",
+    "autonomia de navegação Canva/Descript",
+    "edicao R05 nova",
+    "publicacao",
+    "rotina periodica"
+  ],
+  "estado_R05": "DISCOVERY",
+  "passo": "benchmark audiovisual validado antes de nova edição"
+}

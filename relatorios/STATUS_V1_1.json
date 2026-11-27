@@ -1,0 +1,20 @@
+{
+  "versao": "1.1",
+  "data": "2026-11-25",
+  "estado": "RESEARCH_EXECUTED_AND_PRODUCTION_BLOCKED",
+  "testes_unitarios": 18,
+  "testes_ok": 18,
+  "reels_encontrados_por_legenda": 3,
+  "reels_assistidos_integralmente": 0,
+  "creditos_gastos": 0,
+  "render_criado": false,
+  "mecanismo": "validador Python determinístico; arquivos .agent.md não são subagentes LLM ativos",
+  "motivo_bloqueio": "sem benchmarks assistidos, sem quadro-chave aprovado, sem Larissa filmada real, sem teste curto aprovado",
+  "proximo_passo_prioritario": "obter takes atuais reais da Larissa e assistir benchmarks com evidência; só depois testar quadro-chave e 3-5s",
+  "nao_alterado": [
+    "diretriz Rosé Editorial",
+    "originais Mavie",
+    "publicações anteriores",
+    "custo por dose"
+  ]
+}

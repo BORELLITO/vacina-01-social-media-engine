@@ -1,0 +1,21 @@
+{
+  "resultado": "BLOQUEADO",
+  "arquivo": "outputs/R05_VALIDACAO_V1_2.json",
+  "agentes_executados": [
+    "ART-05",
+    "FIN-08",
+    "MEDIA-11",
+    "MEM-01",
+    "QA-09",
+    "SCOUT-02",
+    "VET-07"
+  ],
+  "motivos": [
+    "falta frame visual comparado à referencia",
+    "teste de 3-5s sem aprovacao visual",
+    "SCOUT: faltam 3 Reels realmente assistidos, independentes e com notas por tempo",
+    "ART/QA: falta aprovação humana rastreável do quadro-chave",
+    "EDIT: falta mídia real verificável da Larissa em câmera para linguagem creator",
+    "EDIT/QA: falta aprovação humana rastreável do teste curto"
+  ]
+}
